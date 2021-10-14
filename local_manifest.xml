@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+ <!-- Repositories -->
+ <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
+ <remote  name="github" fetch="https://github.com/" />
+ <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
+ <remote  name="gitlab" fetch="https://gitlab.com/" />
+
  <!-- Device Trees -->
- <project path="device/xiaomi/monet" name="maluueu/android_device_xiaomi_monet.git" remote="github" revision="master" />
- <project path="device/xiaomi/sm7250-common" name="maluueu/android_device_xiaomi_sm7250-common.git" remote="github" revision="master" />
+ <project path="device/xiaomi/monet" name="android_device_xiaomi_monet.git" remote="maluueugh" revision="master" />
+ <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common.git" remote="maluueugh" revision="master" />
  
  <!-- Vendor -->
- <project path="vendor/xiaomi" name="xSylla/android-vendor-xiaomi-sm7250.git" remote="gitlab" revision="master" />
+ <project path="vendor/xiaomi" name="android-vendor-xiaomi-sm7250.git" remote="maluueugl" revision="master" />
  
  <!-- Kernel -->
- <project path="kernel/xiaomi/sm7250" name="xiaomi-sm7250/android_kernel_xiaomi_sm7250.git" remote="github" revision="picasso-r-oss" />
- 
+ <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250.git" remote="maluueugh" revision="picasso-r-oss" />
+
+ <!-- Hardware -->
+ <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi.git" remote="github" revision="lineage-18.1" />
+
 </manifest>
