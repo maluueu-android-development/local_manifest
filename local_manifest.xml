@@ -3,9 +3,7 @@
 
  <!-- Repositories -->
  <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
- <remote  name="github" fetch="https://github.com/" />
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
- <remote  name="gitlab" fetch="https://gitlab.com/" />
 
  <!-- Device Trees -->
  <project path="device/xiaomi/monet" name="android_device_xiaomi_monet.git" remote="maluueugh" revision="master" />
