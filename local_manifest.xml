@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Device Trees -->
+ <project path="device/xiaomi/monet" name="maluueu/android_device_xiaomi_monet.git" remote="github" revision="master" />
+ <project path="device/xiaomi/sm7250-common" name="maluueu/android_device_xiaomi_sm7250-common.git" remote="github" revision="master" />
+ 
+ <!-- Vendor -->
+ <project path="vendor/xiaomi" name="xSylla/android-vendor-xiaomi-sm7250.git" remote="gitlab" revision="master" />
+ 
+ <!-- Kernel -->
+ <project path="kernel/xiaomi/sm7250" name="xiaomi-sm7250/android_kernel_xiaomi_sm7250.git" remote="github" revision="picasso-r-oss" />
+ 
+</manifest>
