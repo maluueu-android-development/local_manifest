@@ -6,7 +6,7 @@
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
 
  <!-- Device Trees -->
- <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" remote="maluueugh" revision="master" />
+ <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" remote="maluueugh" revision="master" />
  <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="maluueugh" revision="master" />
  
  <!-- Vendor -->
