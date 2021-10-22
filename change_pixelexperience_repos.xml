@@ -5,8 +5,8 @@
  <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
 
- <!-- Remove vendor_aosp from PE and sync mine -->
- <remove-project name="vendor_aosp" />
- <project path="vendor/aosp" name="vendor_aosp" remote="maluueugh" revision="master" />
+ <!-- Remove build_soong from PE and sync mine -->
+ <remove-project name="build_soong" />
+ <project path="build/soong" name="build_soong" remote="maluueugh" revision="twelve" />
  
 </manifest>
