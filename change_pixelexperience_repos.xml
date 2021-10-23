@@ -9,4 +9,8 @@
  <remove-project name="build_soong" />
  <project path="build/soong" name="build_soong" remote="maluueugh" revision="twelve" />
  
+  <!-- Remove hardware_qcom-caf_sm8250_audio from PE and sync mine -->
+ <remove-project name="hardware_qcom-caf_sm8250_audio" />
+ <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="maluueugh" revision="twelve" />
+ 
 </manifest>
