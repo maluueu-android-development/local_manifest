@@ -12,5 +12,9 @@
   <!-- Remove hardware_qcom-caf_sm8250_audio from PE and sync mine -->
  <remove-project name="hardware_qcom-caf_sm8250_audio" />
  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="maluueugh" revision="twelve" />
+
+<!-- Remove hardware_custom_interfaces from PE and sync mine -->
+ <remove-project name="hardware_custom_interfaces" />
+ <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="maluueugh" revision="twelve" />
  
 </manifest>
