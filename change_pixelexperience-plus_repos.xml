@@ -7,6 +7,6 @@
 
  <!-- Remove vendor_aosp from PE and sync mine -->
  <remove-project name="vendor_aosp" />
- <project path="vendor/aosp" name="vendor_aosp" remote="maluueugh" revision="master" />
+ <project path="vendor/aosp" name="vendor_aosp" remote="maluueugh" revision="pe11_plus" />
  
 </manifest>
