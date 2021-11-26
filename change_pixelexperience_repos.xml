@@ -8,21 +8,13 @@
  <!-- Remove build_soong from PE and sync mine -->
  <remove-project name="build_soong" />
  <project path="build/soong" name="build_soong" remote="maluueugh" revision="twelve" />
- 
- <!-- Remove hardware_qcom-caf_sm8250_audio from PE and sync mine -->
- <remove-project name="hardware_qcom-caf_sm8250_audio" />
- <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="maluueugh" revision="twelve" />
-
- <!-- Remove hardware_qcom-caf_sm8250_display from PE and sync mine -->
- <remove-project name="hardware_qcom-caf_sm8250_display" />
- <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="maluueugh" revision="twelve" />
 
  <!-- Remove hardware_custom_interfaces from PE and sync mine -->
  <remove-project name="hardware_custom_interfaces" />
  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="maluueugh" revision="twelve" />
-
- <!-- Remove frameworks_base from PE and sync mine -->
- <remove-project name="frameworks_base" />
- <project path="frameworks/base" name="frameworks_base" remote="maluueugh" revision="twelve" />
  
+ <!-- Remove system_libhwbinder from PE and sync mine -->
+ <remove-project name="system_libhwbinder" />
+ <project path="system/libhwbinder" name="system_libhwbinder" remote="maluueugh" revision="twelve" />
+
 </manifest>
