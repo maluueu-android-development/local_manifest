@@ -21,4 +21,8 @@
  <remove-project name="system_core" />
  <project path="system/core" name="system_core" remote="maluueugh" revision="twelve" />
 
+ <!-- Remove frameworks_native from PE and sync mine -->
+ <remove-project name="frameworks_native" />
+ <project path="frameworks/native" name="frameworks_native" remote="maluueugh" revision="twelve" />
+
 </manifest>
