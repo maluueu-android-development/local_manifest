@@ -17,4 +17,8 @@
  <remove-project name="system_libhwbinder" />
  <project path="system/libhwbinder" name="system_libhwbinder" remote="maluueugh" revision="twelve" />
 
+ <!-- Remove system_core from PE and sync mine -->
+ <remove-project name="system_core" />
+ <project path="system/core" name="system_core" remote="maluueugh" revision="twelve" />
+
 </manifest>
