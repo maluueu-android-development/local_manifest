@@ -13,10 +13,6 @@
  <remove-project name="hardware_custom_interfaces" />
  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="maluueugh" revision="twelve" />
  
- <!-- Remove system_libhwbinder from PE and sync mine -->
- <remove-project name="system_libhwbinder" />
- <project path="system/libhwbinder" name="system_libhwbinder" remote="maluueugh" revision="twelve" />
-
  <!-- Remove system_core from PE and sync mine -->
  <remove-project name="system_core" />
  <project path="system/core" name="system_core" remote="maluueugh" revision="twelve" />
