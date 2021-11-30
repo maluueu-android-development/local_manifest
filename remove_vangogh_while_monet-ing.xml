@@ -2,6 +2,7 @@
 <manifest>
 
  <!-- Remove monet device tree -->
+ <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh"/>
  <remove-project name="android_device_xiaomi_vangogh" />
 
 </manifest>
