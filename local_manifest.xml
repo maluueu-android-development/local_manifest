@@ -2,18 +2,18 @@
 <manifest>
 
  <!-- Repositories -->
- <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
+ <remote  name="maluueu-android-developmentgh" fetch="https://github.com/maluueu-android-development/" />
 
  <!-- Device Trees -->
- <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" remote="maluueugh" revision="pe11_plus" />
- <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="maluueugh" revision="pe11_plus" />
+ <project path="device/xiaomi/vangogh" name="android_device_xiaomi_vangogh" remote="maluueu-android-developmentgh" revision="pe11_plus" />
+ <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="maluueu-android-developmentgh" revision="pe11_plus" />
  
  <!-- Vendor -->
- <project path="vendor/xiaomi" name="android-vendor-xiaomi-sm7250" remote="maluueugl" revision="master" />
+ <project path="vendor/xiaomi" name="android-vendor-xiaomi-sm7250" remote="maluueugl" revision="vangogh-11" />
  
  <!-- Kernel -->
- <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueugh" revision="picasso-r-oss" />
+ <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueu-android-developmentgh" revision="picasso-r-oss" />
 
  <!-- Hardware -->
  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
