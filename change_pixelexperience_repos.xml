@@ -2,23 +2,23 @@
 <manifest>
 
  <!-- Repositories -->
- <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
+ <remote  name="maluueu-android-developmentgh" fetch="https://github.com/maluueu-android-development/" />
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
 
  <!-- Remove build_soong from PE and sync mine -->
  <remove-project name="build_soong" />
- <project path="build/soong" name="build_soong" remote="maluueugh" revision="twelve" />
+ <project path="build/soong" name="build_soong" remote="maluueu-android-developmentgh" revision="twelve" />
 
  <!-- Remove hardware_custom_interfaces from PE and sync mine -->
  <remove-project name="hardware_custom_interfaces" />
- <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="maluueugh" revision="twelve" />
+ <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="maluueu-android-developmentgh" revision="twelve" />
  
  <!-- Remove system_core from PE and sync mine -->
  <remove-project name="system_core" />
- <project path="system/core" name="system_core" remote="maluueugh" revision="twelve" />
+ <project path="system/core" name="system_core" remote="maluueu-android-developmentgh" revision="twelve" />
 
  <!-- Remove frameworks_native from PE and sync mine -->
  <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="maluueugh" revision="twelve" />
+ <project path="frameworks/native" name="frameworks_native" remote="maluueu-android-developmentgh" revision="twelve" />
 
 </manifest>
