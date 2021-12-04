@@ -2,7 +2,6 @@
 <manifest>
 
  <!-- Repositories -->
- <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
  <remote  name="maluueu-android-developmentgh" fetch="https://github.com/maluueu-android-development/" />
 
