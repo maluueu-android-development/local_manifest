@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remove monet device tree -->
+ <project path="device/xiaomi/monet" name="android_device_xiaomi_monet"/>
+ <remove-project name="android_device_xiaomi_monet" />
+
+</manifest>
