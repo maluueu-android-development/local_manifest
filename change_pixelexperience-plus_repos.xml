@@ -4,9 +4,10 @@
  <!-- Repositories -->
  <remote  name="maluueugh" fetch="https://github.com/maluueu/" />
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
+ <remote  name="maluueu-android-developmentgh" fetch="https://github.com/maluueu-android-development/" />
 
  <!-- Remove vendor_aosp from PE and sync mine -->
  <remove-project name="vendor_aosp" />
- <project path="vendor/aosp" name="vendor_aosp" remote="maluueugh" revision="pe11_plus" />
+ <project path="vendor/aosp" name="vendor_aosp" remote="maluueu-android-developmentgh" revision="eleven-plus" />
  
 </manifest>
