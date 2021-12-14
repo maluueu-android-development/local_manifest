@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remove Google Pixel device kernels -->
+ <remove-project name="kernel_google_barbet" />
+ <remove-project name="kernel_google_coral" />
+ <remove-project name="kernel_google_crosshatch" />
+ <remove-project name="kernel_google_redbull" />
+
+</manifest>
