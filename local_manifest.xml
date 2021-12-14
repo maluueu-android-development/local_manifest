@@ -4,6 +4,7 @@
  <!-- Repositories -->
  <remote  name="maluueugl" fetch="https://gitlab.com/maluueu/" />
  <remote  name="maluueu-android-developmentgh" fetch="https://github.com/maluueu-android-development/" />
+ <remote  name="githubmanually" fetch="https://github.com/" />
 
  <!-- Device Trees -->
  <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" remote="maluueu-android-developmentgh" revision="pe12" />
@@ -16,6 +17,6 @@
  <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueu-android-developmentgh" revision="pe12" />
 
  <!-- Hardware -->
- <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="github" revision="lineage-19.0" />
+ <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="githubmanually" revision="lineage-19.0" />
 
 </manifest>
