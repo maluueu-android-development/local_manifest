@@ -9,8 +9,4 @@
  <remove-project name="hardware_custom_interfaces" />
  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="maluueu-android-developmentgh" revision="twelve" />
 
- <!-- Remove frameworks_native from PE and sync mine -->
- <remove-project name="frameworks_native" />
- <project path="frameworks/native" name="frameworks_native" remote="maluueu-android-developmentgh" revision="twelve" />
-
 </manifest>
