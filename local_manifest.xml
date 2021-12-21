@@ -16,7 +16,7 @@
  <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueu-android-developmentgh" revision="pe12" />
 
  <!-- Hardware -->
- <remove-project name="hardware_xiaomi" />
+ <!-- remove-project name="hardware_xiaomi" / -->
  <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="github" revision="lineage-19.0" />
 
 </manifest>
