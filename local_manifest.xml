@@ -8,14 +8,17 @@
  <!-- Device Trees -->
  <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" remote="maluueu-android-developmentgh" revision="twelve" />
  <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="maluueu-android-developmentgh" revision="twelve" />
- 
+
  <!-- Vendor -->
  <project path="vendor/xiaomi" name="android_vendor_xiaomi_monet" remote="maluueugl" revision="twelve" />
- 
+
  <!-- Kernel -->
  <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueu-android-developmentgh" revision="twelve" />
 
  <!-- Hardware -->
  <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="twelve" />
+
+ <!-- sdm845-common-extra -->
+ <project path="vendor/xiaomi/sdm845-common-extra" name="vendor_xiaomi_sdm845-common-extra" remote="pixel-devices-blobs" revision="twelve" />
 
 </manifest>
