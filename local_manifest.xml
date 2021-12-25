@@ -16,6 +16,6 @@
  <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueu-android-developmentgh" revision="twelve" />
 
  <!-- Hardware -->
- <project path="hardware/xiaomi" name="xiaomi-sm8250-devs/android_hardware_xiaomi" remote="github" revision="lineage-19.0" />
+ <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="twelve" />
 
 </manifest>
