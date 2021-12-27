@@ -6,17 +6,17 @@
  <remote  name="maluueu-android-developmentgh" fetch="https://github.com/maluueu-android-development/" />
 
  <!-- Device Trees -->
- <project path="device/xiaomi/monet" name="android_device_xiaomi_monet" remote="maluueu-android-developmentgh" revision="twelve" />
- <project path="device/xiaomi/sm7250-common" name="android_device_xiaomi_sm7250-common" remote="maluueu-android-developmentgh" revision="twelve" />
+ <project path="device/xiaomi/monet" name="device_xiaomi_monet" remote="pixel-devices" revision="twelve" />
+ <project path="device/xiaomi/sm7250-common" name="device_xiaomi_sm7250-common" remote="pixel-devices" revision="twelve" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi" name="android_vendor_xiaomi_monet" remote="maluueugl" revision="twelve" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_monet" remote="pixel-devices-blobs" revision="twelve" />
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/sm7250" name="android_kernel_xiaomi_sm7250" remote="maluueu-android-developmentgh" revision="twelve" />
+ <project path="kernel/xiaomi/sm7250" name="kernel_xiaomi_sm7250" remote="pixel-devices" revision="twelve" />
 
  <!-- Hardware -->
- <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="twelve" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixel" revision="twelve" />
 
  <!-- sdm845-common-extra -->
  <project path="vendor/xiaomi/sdm845-common-extra" name="vendor_xiaomi_sdm845-common-extra" remote="pixel-devices-blobs" revision="twelve" />
